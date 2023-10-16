@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/start"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".StartActivity">
+
+   <LinearLayout
+       android:orientation="vertical"
+       android:background="@drawable/shape"
+       android:layout_width="match_parent"
+       android:id="@+id/ll"
+       android:padding="10dp"
+       android:gravity="center"
+       android:layout_height="match_parent">
+      <TextView
+          android:id="@+id/tv"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+            android:gravity="center"
+          android:text="Classic Photo Editor "
+          android:textColor="@color/white"
+          android:textSize="35sp"
+          android:textStyle="bold" />
+<ImageView
+    android:src="@drawable/editor"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+
+      <Button
+          android:id="@+id/btn_start"
+
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:background="@drawable/shape"
+          android:text="start now" />
+   </LinearLayout>
+
+
+
+</RelativeLayout>
